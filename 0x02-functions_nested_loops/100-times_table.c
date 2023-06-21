@@ -3,6 +3,7 @@
 /**
  * print_times_table - prints the n times table, starting with 0
  * it s the same traitement of task 9
+ * @n: var
  */
 void print_times_table(int n)
 {
