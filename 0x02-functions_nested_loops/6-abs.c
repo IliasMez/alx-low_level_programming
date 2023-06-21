@@ -2,8 +2,8 @@
 
 /**
  * _abs - give the absolute value of an integer
- * 
- * Return: the absolute value 
+ * @n: my varable
+ * Return: the absolute value
  */
 int _abs(int n)
 {

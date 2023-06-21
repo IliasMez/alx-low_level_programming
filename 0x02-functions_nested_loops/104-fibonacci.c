@@ -15,13 +15,14 @@ void print_fibonacci_numbers(void)
     unsigned long int l = 1000000000;
     unsigned long int aft1;
     unsigned long int aft2;
+    unsigned long int i;
 
     printf("%lu", bef1);
 
-    for (unsigned long int i = 1; i < 91; i++)
+    for (i = 1; i < 91; i++)
     {
         printf(", %lu", bef2);
-        unsigned long int temp = bef1 + bef2;
+	unsigned long int temp = bef1 + bef2;
         bef1 = bef2;
         bef2 = temp;
     }
@@ -29,7 +30,7 @@ void print_fibonacci_numbers(void)
     aft1 = (bef1 / l);
     aft2 = (bef1 % l);
 
-    for (unsigned long int i = 92; i < 99; i++)
+    for (i = 92; i < 99; i++)
     {
         printf(", %lu", aft1 + (aft2 / l));
         printf("%lu", aft2 % l);

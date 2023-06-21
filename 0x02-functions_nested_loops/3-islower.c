@@ -1,6 +1,6 @@
 /**
  * _islower - check if char is lowercase
- * 
+ * @ch : var
  * Return: 1 if char is lowercase, otherwise 0.
  */
 
